@@ -1,0 +1,20 @@
+Tarea de guia
+Pasos Instalar VirtualBox
+Ir a la pagina principal de VirtualBox
+Descargar la version mas reciente
+Descargar la ISO
+Entrar a https://ubuntu.com/download/desktop
+Seleccionar la version 16
+Descargar ISO para AMD
+Ejecutar ISO
+Entrar a VirtualBox
+Poner un nombre a la maquina virtual 
+Seleccionar el archivo ISO de ubuntu
+Seleccionar el almacenamiento que le correspondiente a la maquina virtual
+Seleccionar la RAM
+Seleccionar el numero de nucleos
+Poner nombre de usuario y contraseña
+Iniciar la maquina virtual y esperar a que inicie
+
+Subir a GitHub
+Crear archivo guia.txt
