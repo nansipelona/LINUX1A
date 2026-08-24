@@ -18,3 +18,4 @@ Iniciar la maquina virtual y esperar a que inicie
 
 Subir a GitHub
 Crear archivo guia.txt
+ola
