@@ -1,1 +1,102 @@
 abrir terminal de ubuntu
+introducir mkdir -p ~/laboratorio-cli {docs,src,logs}
+cd lab 
+poner captura de ese codigo
+$ls 
+introducir ~/laboratorio-cli$ cd . .
+primer captura mkdir01
+$ls aparecen las carpetas
+$cd ~/laboratorio-cli/
+$ls mkdir02
+buscar carpeta laboratorio clinico
+touch docs/{guia,notas}.md src/{main,test}.py logs/app.log README.txt       mkdir03
+cd docs
+ls
+se tiene que ver guia.md notas.md captura 5
+equivocacion rm nombrequeestamal    solo archivos
+carpeta rm -r src nombrecarpeta¿
+mkdir06 logs 
+
+
+
+
+31 ago
+entrar a carpeta de laboratorioejecutar 
+ls -lah docs
+identificar los permisos
+r=4 w=2 x=1 -=0
+leer escribir ninguno
+lo que esta mas a la izquierda son las personas que deberian tener mas permisos
+representan admin usuarios otros drw xrw r-x
+poner pwd captura 2
+ls -lah captura 3
+cd docs && pwd dentro de laboratorio  4
+cap 5
+cd -
+cap 6
+cd / raiz de kernel 
+cap 7 
+cd virgulilla 
+cap 8
+realpath .
+cap 9
+cd ../src && pwd
+cap 10
+type cd        tipo elemento de nuestrp comando 
+cap 11
+help cd       proporciona toda la informacion de ese elemento o parametro
+cap 12 
+ls --help        lo mismo pero compactado
+cap 13
+man ls     01 y 02         manual navegable
+cap 14
+generar tipo manual 
+info coreutils    01 y 02       genera manual de gnu
+cap 15
+apropos 'list directory'        realiza una busqueda dentro de las descripciones, de los listados de help 
+
+
+carpetas de unidades, unidad 1 unidad 2, todo lo de ahorita en unidad 1 en el repositorio
+07/09
+shell cualquier comando 
+
+cd ~
+mkdir scripts   crear carpeta
+touch holamundo.sh  crear archivo 
+nano holamundo.sh
+  dentro de nano
+#!/bin/shellecho ¨hola mundo¨
+echo "hola mundo"
+guardar ctrl s salir ctrl x
+ver permisos ls -lah
+chmod +x holamundo.sh agregar permisos
+ejecutar sh holamundo.sh
+muestra hola mundo
+sh es lectura mas que ejecucion
+en vez de sh ./holamundo.sh
+
+01 script nano  
+02 x (con permisos) ./
+03 holamundo sin x (sin permisos) ./
+04 ejecutar todo en lugar de de ./ con sh
+05 sh sin permisos
+06 holamundoshsinr 
+chmod -r holamundo.sh
+agregar instruccion dentro del shell
+07 chmod +rx holamundo.sh   holamundo pwd
+linea 3 pwd dentro de nano
+08 hola mundo pwd 2 muestra la direccion 
+abrir nano
+09 holamundomkdir
+agregar otra linea con otra carpeta 
+mkdir tmp
+touch tmp/.env
+salir de nano
+10 ejecutar ./holamundo.sh y luego ls -lah
+11
+cd tmp 
+ls -lah 
+
+
+
+comit create fecha de hoy
