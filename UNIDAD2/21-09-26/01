@@ -1,0 +1,4 @@
+dentro de scripts 
+cd scripts
+touch saludo.sh
+nano saludo.sh
