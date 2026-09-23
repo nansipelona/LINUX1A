@@ -2,3 +2,23 @@ dentro de scripts
 cd scripts
 touch saludo.sh
 nano saludo.sh
+
+
+
+
+23 09
+mkdir scripts
+touch listado.sh
+nano listado.sh
+
+#!/bin/bash
+mostar_ayuda (){}   es una funcion dentro de las llaves la accion que va a realizar
+{
+    echo "Uso: $0 <directorio_origen>"
+        echo "Ejemplo: $0 /home/usuario/documentos"
+
+}
+mostrar_ayuda
+
+chmod +x listado.sh
+./listado.sh 
